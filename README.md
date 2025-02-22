@@ -1,37 +1,41 @@
-Simple Calculator
+```md
+# 🌟 Simple Calculator 🌟
 
-This is a calculator project still in development. Features are incomplete, UI is messy, and there are some bugs that need fixing. But don't worry, updates are coming!
+This is a **calculator project** still in development. Features are **incomplete**, UI is **messy**, and there are **some bugs** that need fixing. But don't worry, **updates are coming!** 🚀
 
-🚀 Current Features
+---
 
-Basic operations: addition, subtraction, multiplication, division
+## 🚀 Current Features
+✅ **Basic operations**: Addition, Subtraction, Multiplication, Division  
+✅ **Simple UI** (still needs a lot of improvement)  
 
-Simple UI (still needs a lot of improvement)
+---
 
-🛠️ Upcoming Features
+## 🛠️ Upcoming Features
+🔹 **Advanced operations** (e.g., Exponentiation, Square Root, etc.)  
+🔹 **Calculation history**  
+🔹 **Better UI design** 🎨  
+🔹 **Bug fixes** 🐞  
 
-Advanced operations (e.g., exponentiation, square root, etc.)
+---
 
-Calculation history
+## ⚠️ Known Issues
+❌ Some calculations still **produce errors**  
+❌ UI is **not fully responsive** on all screens  
+❌ UX **needs improvement**  
 
-Better UI design
+---
 
-Bug fixes
+## 🔧 Installation
+📥 Download the app here: **[App Link]**
 
-⚠️ Known Issues
+---
 
-Some calculations still produce errors
+## 💡 Contributions
+If you want to **help**, feel free! You can **fix bugs**, **add features**, or **suggest a better UI**. 🤝
 
-UI is not fully responsive on all screens
+---
 
-UX needs improvement
+✨ **Still far from perfect, but step by step, it'll get better!** ✨🚀
+```
 
-🔧 Installation
-
-Download the app here: [App Link]
-
-💡 Contributions
-
-If you want to help, feel free! You can fix bugs, add features, or suggest a better UI.
-
-Still far from perfect, but step by step, it'll get better! 🚀
