@@ -641,6 +641,10 @@ video {
   grid-template-rows: auto 1fr auto 55%;
 }
 
+.content-center {
+  align-content: center;
+}
+
 .items-center {
   align-items: center;
 }
