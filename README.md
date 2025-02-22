@@ -26,7 +26,7 @@ This project is a basic calculator application that is still in development. Som
 ---
 
 ### Accessing the Application
-You can use the calculator directly in your browser by visiting: **[Calculator](https://ibnu-calculator.vercel.app/)**
+You can use the calculator directly in your browser by visiting: **[Calculator](https://calculator-ibnu-prayoga.vercel.app/)**
 
 ---
 
