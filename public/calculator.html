@@ -6,10 +6,10 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="/src/tailwind.css">
     <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="https://atugatran.github.io/FontAwesome6Pro/css/all.min.css" >
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 </head>
 <body class="bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 font-Poppins">
     
@@ -17,7 +17,7 @@
     <div id="dragBox" class="w-full h-full md:w-full md:h-full lg:w-[280px] lg:h-[490px] grid grid-rows-[auto,1fr,auto,55%] fixed">
 
         <!-- header -->
-        <div class="w-full h-14 content-center bg-zinc-300 dark:bg-zinc-700">
+        <div class="w-full h-14 flex items-center bg-zinc-300 dark:bg-zinc-700">
             <div class="w-[90%] mx-auto flex items-center gap-4 g-purple-400">
                 <i id="menu" class="fa-solid fa-bars text-2xl"></i>
                 <h2 class="text-2xl  font-semibold">Calculator</h2>
@@ -30,7 +30,7 @@
         </div>
 
         <!-- navigation -->
-        <nav class="w-full h-12  content-center backdrop-blur-xl">
+        <nav class="w-full h-12 flex items-center backdrop-blur-xl">
             <div class="w-[90%] mx-auto flex items-center justify-between bg-yan-800">
                 <div class="flex gap-8">
                     <i class="fa-regular fa-clock-rotate-left text-2xl opacity-50"></i>
