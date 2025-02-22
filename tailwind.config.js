@@ -5,10 +5,7 @@ module.exports = {
     theme: {
       extend: {
         fontFamily: {
-          Poppins: ["Poppins"],
-          EduAUVICWANTPre: [ "Edu AU VIC WA NT Pre"],
-          OpenSans: ["Open Sans"],
-          Lato: ["Lato"]
+          Poppins: ["Poppins"]
         },
       },
     },
