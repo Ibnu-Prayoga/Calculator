@@ -20,27 +20,27 @@
 
         <!-- header -->
         <div class="w-full h-14 flex items-center bg-zinc-300 dark:bg-zinc-700">
-            <div class="w-[90%] mx-auto flex items-center gap-4 g-purple-400">
-                <i id="menu" class="fa-solid fa-bars text-2xl"></i>
+            <div class="w-[90%] mx-auto flex items-center g-purple-400">
+                <i id="btnMenu" class="fa-solid fa-bars text-2xl mr-4"></i>
                 <h2 class="text-2xl  font-semibold">Calculator</h2>
             </div>
         </div>
 
         <!-- display -->
         <div>
-            <input id="display" class="w-full h-full bg-cyan-300 px-4 text-right text-6xl tex-zinc-700 bg-transparent" type="text" placeholder="0" readonly>
+            <input id="display" class="w-full h-full bg-cyan-300 px-4 text-right text-6xl tex-zinc-700 border-none outline-none  bg-transparent" type="text" placeholder="0" readonly>
         </div>
 
         <!-- navigation -->
         <nav class="w-full h-12  flex items-center backdrop-blur-xl">
             <div class="w-[90%] mx-auto flex items-center justify-between bg-yan-800">
-                <div class="flex gap-8">
-                    <i class="fa-regular fa-clock-rotate-left text-2xl opacity-50"></i>
+                <div class="flex ">
+                    <i class="fa-regular fa-clock-rotate-left text-2xl opacity-50 mr-8"></i>
                     <i class="fa-regular fa-up-right-and-down-left-from-center text-2xl opacity-50"></i>
                 </div>
                 <i onclick="remove()" class="fa-regular fa-delete-left text-3xl "></i>
             </div>
-        </nav>
+        </nav>  
 
         <!-- box button -->
         <div class="grid grid-cols-4 gap-1 p-1 bg-orane-400">
@@ -51,7 +51,7 @@
             <button onclick="appendValue('7')" class="rounded-md active:bg-opacity-85 bg-zinc-300 text-zinc-700 text-xl"><i class="fa-solid fa-7"></i></button>
             <button onclick="appendValue('8')" class="rounded-md active:bg-opacity-85 bg-zinc-300 text-zinc-700 text-xl"><i class="fa-solid fa-8"></i></button>
             <button onclick="appendValue('9')" class="rounded-md active:bg-opacity-85 bg-zinc-300 text-zinc-700 text-xl"><i class="fa-solid fa-9"></i></button>
-            <button onclick="appendValue('*')" class="rounded-md active:bg-opacity-85 bg-zinc-600 text-zinc-300 text-xl"><i class="fa-solid fa-xmark"></i></button>
+            <button onclick="appendValue('*')" onclick="test()" class="rounded-md active:bg-opacity-85 bg-zinc-600 text-zinc-300 text-xl"><i class="fa-solid fa-xmark"></i></button>
             <button onclick="appendValue('4')" class="rounded-md active:bg-opacity-85 bg-zinc-300 text-zinc-700 text-xl"><i class="fa-solid fa-4"></i></button>
             <button onclick="appendValue('5')" class="rounded-md active:bg-opacity-85 bg-zinc-300 text-zinc-700 text-xl"><i class="fa-solid fa-5"></i></button>
             <button onclick="appendValue('6')" class="rounded-md active:bg-opacity-85 bg-zinc-300 text-zinc-700 text-xl"><i class="fa-solid fa-6"></i></button>
